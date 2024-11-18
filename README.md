@@ -5,7 +5,7 @@ To run the script, open your console or terminal window and copy and paste the f
 Firstly to create the environment:
 
 ``` shell
-conda create -n py10 python==3.10 numpy pydot pandas pillow tensorflow scikit-image scikit-learn matplotlib ipykernel jupyter -y
+conda create -n py10 python==3.10 numpy pydot pydotplus pandas pillow tensorflow scikit-image scikit-learn matplotlib ipykernel jupyter -y
 conda activate py10
 ```
 
