@@ -1,6 +1,7 @@
 $DownloadUrl = "https://www.kaggle.com/api/v1/datasets/download/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign"
 $OutputFile = "archive.zip"
 $ExtractPath = (Get-Location).Path + "\Data"
+
 Write-Host "START DOWNLOADING..."
 Invoke-WebRequest -Uri $DownloadUrl -OutFile $OutputFile
 Write-Host "Done 👍"

@@ -16,6 +16,12 @@ conda env create --file=Py10-Conda.yml
 conda activate py10
 ```
 
+Also you need to download binary package `graphviz`
+
+```
+winget install graphviz
+```
+
 ## Download the dataset
 
 Run the following scripts to download the Images Datasets
